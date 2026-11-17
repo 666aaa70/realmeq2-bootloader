@@ -59,3 +59,5 @@ python3 scripts/fetch_materials.py --include-optional
 - [Android AVB](https://android.googlesource.com/platform/external/avb/)：镜像格式与离线校验工具。
 
 仓库文档及脚本采用 AGPL-3.0-only，见 [COPYING](COPYING)。第三方内容保留各自归属，见 [THIRD_PARTY.md](THIRD_PARTY.md)；下载材料不会因此被重新授权。
+
+纯Vibe项目，本人没有技术issue大概也不会看吧
