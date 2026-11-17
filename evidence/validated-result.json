@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "test_date": "2026-11-17",
+  "device_model": "RMX2117CN",
+  "soc": "MT6853",
+  "firmware": "RMX2117_11.F.12_3120_202312261231",
+  "android_version": "12",
+  "security_patch": "2024-01-05",
+  "downgrade_performed": false,
+  "unlock": {
+    "formal_fastboot_unlock": "OKAY",
+    "physical_volume_up_confirmation": true,
+    "fastboot_unlocked": "yes",
+    "fastboot_secure": "no",
+    "android_boot_completed": "1",
+    "android_flash_locked": "0",
+    "android_vbmeta_device_state": "unlocked",
+    "android_verifiedbootstate": "orange",
+    "boot1_full_readback_matched": true,
+    "boot2_unchanged": true,
+    "earlier_direct_seccfg_attempt": "unsuccessful; exact original restored before formal unlock"
+  },
+  "recovery": {
+    "version": "3.7.0_12-perilouspike",
+    "flash": "OKAY",
+    "touchscreen_user_confirmed": true,
+    "adb_root_inside_recovery": true,
+    "decryption_verified": true,
+    "decryption_scope": "current setup without a user-defined lockscreen password",
+    "first_persistence_attempt": "stock Android overwrote TWRP",
+    "fix": "boot unused padding offset 0x1322000 changed from 0x00 to 0x01; all other bytes unchanged",
+    "boot_oem_avb_signature_and_payload_hash_verified": true,
+    "android_normal_boot_after_fix": true,
+    "twrp_preserved_after_android_boot": true,
+    "actual_boot_and_recovery_hashes_matched": true,
+    "vbmeta_partitions_unchanged": true,
+    "system_vendor_unchanged": true,
+    "orangefox_installed": false,
+    "root_installed_in_android": false
+  },
+  "privacy": "Manually selected non-unique fields only; no serial, IMEI, hardware IDs, personal paths or raw logs."
+}

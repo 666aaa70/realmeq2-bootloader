@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-17",
+  "scope": "Explicitly selected publication files only; fresh Git repository",
+  "known_private_identifier_scan": "passed",
+  "excluded_file_type_and_symlink_review": "passed",
+  "gitleaks_version": "8.30.1",
+  "gitleaks_directory_findings": 0,
+  "boot1_generator_output_matches_original_tested_artifact": true,
+  "boot_padding_generator_output_matches_original_tested_artifact": true,
+  "boot_padding_oem_avb_signature_and_payload_hash": "passed",
+  "changed_input_rejected_by_both_generators": true,
+  "fresh_DA_and_TWRP_download_and_sha256_verification": "passed",
+  "vendored_upstream_script_sha256": "f9308e21b65be38dca9fe46e86373690c709a42807612bc493f608e38fe61d7f",
+  "commit_email": "GitHub noreply address",
+  "tracked_files_before_this_report": 17,
+  "reviewed_files": [
+    {
+      "path": ".gitignore",
+      "sha256": "6b594f848d6fe47fe19c8861c5e9f6bb3d0bb27799eac8404518997695a86448"
+    },
+    {
+      "path": "COPYING",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d1d18b7c2e72803e46b55d672e8229dd65b4d9ffa5c1c1eabccfded7615a8a8d"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "sha256": "0c36b7dd06a59c48e4edfb5787d54be6b64e9ed0bca78b12672e5168823250ee"
+    },
+    {
+      "path": "config/70-realmeq2-download.rules",
+      "sha256": "93e353627d5b8cd91ea28ac1e62a1c4f45c4e060169e54c5b81caf57446db6e7"
+    },
+    {
+      "path": "docs/01-bootloader.md",
+      "sha256": "22a80717f4e0f5047e981240fef8f1433f0b1b38537ea429b8a7f9b11da65a5e"
+    },
+    {
+      "path": "docs/02-recovery.md",
+      "sha256": "8eed7183167081e5ca75aed7e82c5f7e78de0dc25bddf0ef5b8298889d090198"
+    },
+    {
+      "path": "docs/03-troubleshooting.md",
+      "sha256": "ea62433f79a312ee77aa0ada7d41cee6ffa26cdba738cceb7ca2690805237053"
+    },
+    {
+      "path": "docs/04-materials.md",
+      "sha256": "aea2b471382275bc963a69a395e162670b8d434488ef1cb0f582ded498af6874"
+    },
+    {
+      "path": "docs/05-privacy-review.md",
+      "sha256": "30126237d47ff650fb28e3f340ba0789c5511dab371977bee4723b06a48c5a5d"
+    },
+    {
+      "path": "evidence/validated-result.json",
+      "sha256": "8f05643b14af6d08a4f7b04128dac37416d90f8ec85499cbeda5cfa32b117712"
+    },
+    {
+      "path": "materials.json",
+      "sha256": "c4f17edf6ef3401d03f3b7dddb328ecb762d31ead47a7e9b0bd8736fcf4644d2"
+    },
+    {
+      "path": "scripts/fetch_materials.py",
+      "sha256": "23e1901e4f118f0d9b1cc7006e1ddbb5df91152588b9507ba5f664ac61d0a4f4"
+    },
+    {
+      "path": "scripts/prepare_boot1.py",
+      "sha256": "a5803fdaa68812826c86f7952821eff1993f99ec0ff02540930d45775dcb6cb7"
+    },
+    {
+      "path": "scripts/prepare_boot_padding.py",
+      "sha256": "866d60637d7d870967c14a6a4c29fd40b0d6c5e6d1105094e8dc65858acd6b97"
+    },
+    {
+      "path": "vendor/oppo-mtk-fastboot-unlock/LICENSE",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    {
+      "path": "vendor/oppo-mtk-fastboot-unlock/path_preloader.py",
+      "sha256": "f9308e21b65be38dca9fe46e86373690c709a42807612bc493f608e38fe61d7f"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "tested_firmware": "RMX2117_11.F.12_3120_202312261231",
+  "downloads": [
+    {
+      "name": "MT6853 DA",
+      "filename": "DA_BR_MT6853.bin",
+      "download_url": "https://github.com/user-attachments/files/25299661/DA_BR_MT6853.bin.zip",
+      "zip_member": "DA_BR_MT6853.bin",
+      "source_page": "https://github.com/bkerler/mtkclient/discussions/61",
+      "bytes": 817218,
+      "sha256": "b7fe61c03c731753f489e5975759bbb8bd5369a554058397105a2b7bf40943ab",
+      "used_on_device": true
+    },
+    {
+      "name": "RMX2117 RUI3 TWRP",
+      "filename": "TWRP-RMX2117-RUI3.img",
+      "download_url": "https://github.com/Ravinderrohilla/recovery-tree-A12-and-14/releases/download/V.12.1/TWRP_RIUI3.img",
+      "source_page": "https://github.com/Ravinderrohilla/recovery-tree-A12-and-14/releases/tag/V.12.1",
+      "bytes": 134217728,
+      "sha256": "d74090bd746d9b9d8bac4afe0ce0e6cc1b1c9f77304020fce07f21d26ea93d61",
+      "used_on_device": true
+    },
+    {
+      "name": "RMX2117 A12 FBEv1 OrangeFox (optional, not installed)",
+      "filename": "OrangeFox-RMX2117-A12.zip",
+      "download_url": "https://github.com/Ravinderrohilla/recovery-tree-A12-and-14/releases/download/V.12.1/OrangeFox-R11.1_1_A12_FBEv1-Unofficial-Stable-RMX2117.zip",
+      "source_page": "https://github.com/Ravinderrohilla/recovery-tree-A12-and-14/releases/tag/V.12.1",
+      "bytes": 81883089,
+      "sha256": "090a4d5a96dbc7594fe95187b4721ca6dae55dfd336c0270c87b95c6bd755d12",
+      "used_on_device": false,
+      "optional": true
+    }
+  ],
+  "source_tools": [
+    {
+      "name": "MTKClient",
+      "url": "https://github.com/bkerler/mtkclient",
+      "tested_commit": "118a000a83ea31c4f427fe5225abfe964546e05e"
+    },
+    {
+      "name": "Fastboot entry patch",
+      "url": "https://github.com/Shocked-Cat/oppo-mtk-fastboot-unlock",
+      "vendored_file": "vendor/oppo-mtk-fastboot-unlock/path_preloader.py",
+      "sha256": "f9308e21b65be38dca9fe46e86373690c709a42807612bc493f608e38fe61d7f"
+    }
+  ],
+  "official_ota_reference": {
+    "component": "system_vendor",
+    "url": "https://gauss-compotacostauto-cn.allawnfs.com/remove-bc4adfd2135d4de3b3d67e938e6eb247/component-ota/24/01/02/8e30378dd12a465892e114a96db2a3ce.zip",
+    "bytes": 2087660443,
+    "server_reported_md5": "671ed34d0b078d5a1e0a220067c10134",
+    "full_download_or_signature_verified": false
+  },
+  "tested_image_hashes": {
+    "boot1_original": "deee5b7ff2e8c3a42c663b47314fa01135c0e2d0e1ee9842fd26594f910fca89",
+    "boot1_patched": "c5359d4b96ef1000fcf4cf73046df72cc55165e7b6fce3bec04db50cb40ef022",
+    "raw_preloader_unchanged": "85407a41bf8d746107e34c39750b8b23e4bfada3e7d7bfc0d67d1675cd65c669",
+    "boot_original": "06e21577d95029c898e8e4d7d8b1bd44afb80e72642566399bbdeb482d588113",
+    "boot_padding_modified": "d30d34b27209aa8d7fe472bf573c31733c26a0e3d6364f419c56b4715fab187b",
+    "recovery_stock": "84bde6b657308e9cc465c4119767df2f7d20d82664b42aea5713bc657b82b371",
+    "vbmeta_original": "4d898f7025d73da01c0be2617ff0f4067430c982ff55b50fcd64fab0c5b9006a",
+    "vbmeta_system_original": "8d050320d5d81eb7c17beb726f73c5178344983927a09c4c955071f9ceefb314",
+    "vbmeta_vendor_original": "acf40ea1fdff7d6459af2a03e274263f48e953c90e07daed6d02e2b877df5b90"
+  }
+}

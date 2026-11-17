@@ -1,0 +1,4 @@
+# Replace YOUR_LINUX_USER with the actual local username before installation.
+# Restrict access to the tested MediaTek/OPLUS USB interfaces.
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="0e8d", ATTR{idProduct}=="0003|2000|2001|20ff", OWNER="YOUR_LINUX_USER", MODE="0660", ENV{ID_MM_DEVICE_IGNORE}="1"
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="22d9", ATTR{idProduct}=="0006", OWNER="YOUR_LINUX_USER", MODE="0660", ENV{ID_MM_DEVICE_IGNORE}="1"
