@@ -62,4 +62,4 @@ python3 scripts/fetch_materials.py --include-optional
 
 ## 声明
 
-纯Vibe项目，本人没有技术issue大概也不会看吧
+纯Vibe项目，本人没有技术，如果有issue的话大概也不会看吧
